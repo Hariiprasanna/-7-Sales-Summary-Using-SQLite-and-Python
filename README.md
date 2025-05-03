@@ -42,3 +42,17 @@ SELECT
     SUM(quantity * price) AS revenue
 FROM sales
 GROUP BY product;
+
+
+ ## Output
+Printed summary table of quantity sold and revenue per product
+Bar chart saved as sales_chart.png
+
+
+## Repository Contents
+File	Description
+sales_data.db	SQLite database containing sales table
+task7_sales_summary.py	Python script used to run the analysis
+sales_chart.png	Bar chart showing revenue by product
+README.md	Project documentation (this file)
+'''
