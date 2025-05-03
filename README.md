@@ -33,18 +33,9 @@ The dataset includes **30 random entries** across 5 product types.
 - **Matplotlib** for visualization
 - **Jupyter Notebook** or `.py` script
 
-## SQL Query Used
-
-```sql
-SELECT 
-    product,
-    SUM(quantity) AS total_qty,
-    SUM(quantity * price) AS revenue
-FROM sales
-GROUP BY product;
 
 
- ## Output
+## Output
 Printed summary table of quantity sold and revenue per product
 Bar chart saved as sales_chart.png
 
@@ -56,3 +47,14 @@ task7_sales_summary.py	Python script used to run the analysis
 sales_chart.png	Bar chart showing revenue by product
 README.md	Project documentation (this file)
 '''
+
+
+## SQL Query Used
+
+```sql
+SELECT 
+    product,
+    SUM(quantity) AS total_qty,
+    SUM(quantity * price) AS revenue
+FROM sales
+GROUP BY product;
