@@ -31,7 +31,7 @@ The dataset includes **30 random entries** across 5 product types.
 - **SQLite** (via `sqlite3` module)
 - **Pandas** for data handling
 - **Matplotlib** for visualization
-- **Jupyter Notebook** or `.py` script
+- **Jupyter Notebook**
 
 
 
@@ -58,3 +58,4 @@ SELECT
     SUM(quantity * price) AS revenue
 FROM sales
 GROUP BY product;
+
